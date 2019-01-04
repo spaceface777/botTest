@@ -1,0 +1,34 @@
+{
+    "name": "bot_test",
+    "version": "0.0.1",
+    "description": "Test Hermes bot using library",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/spaceface777/botTest.git"
+    },
+    "main": "./src/bot.js",
+    "keywords": [
+      "hermes",
+      "bot",
+      "api",
+      "node",
+      "nodejs"
+    ],
+    "license": "MIT",
+    "scripts": {
+      "start": "node main.js"
+    },
+    "dependencies": {
+      "bluebird": "^3.5.3",
+      "eventemitter3": "^3.1.0",
+      "request": "^2.88.0",
+      "request-promise": "^4.2.2",
+      "socks5-https-client": "^1.2.1"
+    },
+    "devDependencies": {},
+    "bugs": {
+      "url": "https://github.com/spaceface777/botTest/issues"
+    },
+    "homepage": "https://github.com/spaceface777/botTest#readme"
+  }
+  
