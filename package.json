@@ -1,30 +1,29 @@
 {
-    "name": "bot_test",
-    "version": "0.0.1",
-    "description": "Test Hermes bot using library",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/spaceface777/botTest.git"
-    },
-    "main": "./src/bot.js",
-    "keywords": [
-      "hermes",
-      "bot",
-      "api",
-      "node",
-      "nodejs"
-    ],
-    "license": "MIT",
-    "scripts": {
-      "start": "node main.js"
-    },
-    "dependencies": {
-      "hermesbot": "^0.0.1"
-    },
-    "devDependencies": {},
-    "bugs": {
-      "url": "https://github.com/spaceface777/botTest/issues"
-    },
-    "homepage": "https://github.com/spaceface777/botTest#readme"
-  }
-  
+  "name": "bot_test",
+  "version": "1.0.0",
+  "description": "Hermes bot created using the library",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spaceface777/botTest.git"
+  },
+  "main": "main.js",
+  "keywords": [
+    "hermes",
+    "bot",
+    "api",
+    "node",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "hermesbot": "latest"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/spaceface777/botTest/issues"
+  },
+  "homepage": "https://github.com/spaceface777/botTest#readme"
+}
